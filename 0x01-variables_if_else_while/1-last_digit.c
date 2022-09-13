@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <time.h>
+/*more headers goes there*/
+
+/*betty style doc for function main goes there*/
 /**
  *
- * File - 1-last_digit.c
- *
- * main - Prints the last digit
+ *  main - Entry point
  *
  * Return: Always success
  *
