@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <time.h>
-/*more headers goes there*/
+#include <stdio.h>
 
 /*betty style doc for function main goes there*/
 /**
  *
- *  main - Entry point
+ * main - 1-last_digit.c
  *
  * Return: Always success
  *
@@ -13,6 +13,7 @@
 int main(void)
 {
 	int n;
+	int 1;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
