@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- *
+ * main - 0-positive_or_negative.c 
+ *  
  * Return: Always success
  */
 int main(void)
