@@ -8,12 +8,12 @@
  *
  * Return: Always success
  */
-int main(void)
+int main(int argc, char *argv)
 {
 	int n;
 	
-	rand(time(0));
-	n = rand() - SRAND_MAX / 2;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 	
 	if (n > 0)
 		printf("%d is positive\n", n);
