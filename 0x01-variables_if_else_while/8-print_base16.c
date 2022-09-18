@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * mai - print if the number is positive, zero, or negative 
+ * Description: using the main function
+ * thia prigram prints "Programming is positive, zero, or negative
+ * Return: 0
+ */
+int main(void)
+{
+	char c;
+	for (c 'a'; c <= 'f'; c++)
+{
+	putchar(c);
+}
+	for (c = 'a'; c <= 'f'; c++)
+{
+	putchar(c);
+}
+	putchar('\n');
+	return (0);
+}
