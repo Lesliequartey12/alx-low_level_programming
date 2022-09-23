@@ -1,14 +1,14 @@
-#include <unistd.h>
+#include <stdio.h>
+#inclde <stdlib.h>
+#include <time.h>
 
 /**
-*_putchar - writes the character c to stdout
+* main - Entry point
 *
-* @c: the character to print
-*
-* Returen: On success 1
-* On fail -1 and errno is set appropriate
+* Return: Always success
 */
-int _putchar(char c)
+int mai(void)
 {
-	return (write(1, &c, 1));
+	printf("_putchar\n");
+	return (0);
 }
